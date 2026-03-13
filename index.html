@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexPay Hub</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background:#0a2540;
+color:white;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h2{
+color:#00d4ff;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Hero */
+
+.hero{
+background:linear-gradient(135deg,#0066ff,#00c6ff);
+color:white;
+padding:120px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:#0066ff;
+font-weight:bold;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Sections */
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+}
+
+/* Services */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Blog */
+
+.blog{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.blog-post{
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+/* Contact */
+
+.contact form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:500px;
+margin:auto;
+}
+
+input,textarea{
+padding:12px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+padding:12px;
+background:#0066ff;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>NexPay Hub</h2>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- Home -->
+
+<section class="hero" id="home">
+
+<h1>Welcome to NexPay Hub</h1>
+
+<p>Smart Payment & Digital Business Solutions</p>
+
+<button>Get Started</button>
+
+</section>
+
+<!-- About -->
+
+<section id="about">
+
+<h2 class="section-title">About NexPay Hub</h2>
+
+<p style="text-align:center; max-width:700px; margin:auto;">
+NexPay Hub provides modern digital payment solutions,
+business tools, and technology services to help companies
+grow faster in the digital economy.
+</p>
+
+</section>
+
+<!-- Services -->
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Digital Payments</h3>
+<p>Secure and fast online payment solutions.</p>
+</div>
+
+<div class="card">
+<h3>Business Solutions</h3>
+<p>Tools to manage and grow your business.</p>
+</div>
+
+<div class="card">
+<h3>Website Development</h3>
+<p>Modern and professional business websites.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Blog -->
+
+<section id="blog">
+
+<h2 class="section-title">Latest Blog</h2>
+
+<div class="blog">
+
+<div class="blog-post">
+<h3>Future of Digital Payments</h3>
+<p>How technology is transforming payments.</p>
+</div>
+
+<div class="blog-post">
+<h3>Why Businesses Need Online Payments</h3>
+<p>The benefits of digital transactions.</p>
+</div>
+
+<div class="blog-post">
+<h3>Secure Payment Systems</h3>
+<p>Tips to keep transactions safe.</p>
+</div>
+
+</div>
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact NexPay Hub</h2>
+
+<p style="text-align:center;">
+Owner: <b>Tejas</b><br>
+Email: <b>mstejas37@gmail.com</b>
+</p>
+
+<br>
+
+<form action="mailto:mstejas37@gmail.com" method="post" enctype="text/plain">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<textarea name="message" rows="5" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+<footer>
+
+<p>© 2026 NexPay Hub | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
